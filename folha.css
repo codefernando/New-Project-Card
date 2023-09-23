@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans";
+}
+
+.corfundo {
+  background-color: olive;
+  transition: all 2.25s ease-in-out;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-main {
+  width: 60%;
+  height: 60vh;
+  background-color: rgb(17, 10, 49);
+  box-shadow: 4px 4px 4px rgb(17, 10, 49);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+
+.card-image {
+  width: 1100px;
+  height: 50vh;
+  margin-top: 43px;
+  transform: translate(-8rem);
+  background-image: url("./images/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.content-text {
+  width: 1100px;
+  height: 40vh;
+  margin-top: 60px;
+  margin-right: 8px;
+}
+.content-text h3 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+.content-text p {
+  color: white;
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 5px;
+  margin-top: 30px;
+  font-weight: 800;
+  line-height: 1.2em;
+}
+.content-text button {
+  margin-left: 35%;
+  margin-top: 40px;
+  width: 30%;
+  padding: 8px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: burlywood;
+}
+.content-text button:hover {
+  background-color: blueviolet;
+  transition: 3s all;
+}/*# sourceMappingURL=folha.css.map */
